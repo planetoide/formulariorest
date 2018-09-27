@@ -1,0 +1,4 @@
+<button type="button" (click)="verGrafica()" class="btn btn-success mt-5 mb-4">Actualizar gráfica de categorias</button>
+<div [hidden]="!chart">
+  <canvas id="canvas">{{ chart }}</canvas>
+</div>
